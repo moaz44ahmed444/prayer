@@ -36,7 +36,9 @@ input[type="text"], input[type="date"] {
   background-color: transparent;
   border: 0;
   border-bottom: 2px solid #fff;
-  width: 100%;
+  width: 98%;
+  border-radius: 8px;
+  padding: 10px ; /* Updated padding to match date input */
   padding-bottom: 10px;
   color: #fff;
   font-weight: 300;
@@ -113,7 +115,6 @@ button:active {
 input[type="date"] {
   appearance: none; /* Remove default styles */
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
   width: 95%;
   padding: 10px 15px;
   font-size: 16px;
